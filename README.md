@@ -1,7 +1,7 @@
 ### Introduction
 [![WibmoPay PG SDK (Wibmo Pay)](https://img.shields.io/badge/sdk-Wibmo%20Pay-brightgreen.svg?style=flat-square)](https://github.com/mypoolin/mypoolin-sdk/wiki/Mypoolin-Payment-Gateway)
 
-This is the documentation for integrating WibmoPay payment gateway on your iOS app.
+This is the documentation for integrating WibmoPaySDK payment gateway on your iOS app.
 #### Features
 + UPI
 + Cards
@@ -12,11 +12,11 @@ This is the documentation for integrating WibmoPay payment gateway on your iOS a
 # Integration
 ## **WibmoPay PG Integration Steps in Swift-Xcode**
 ### Step 1. 
-Add this to your project **podfile** `pod WibmoPay`.Minimum deployment target version for WibmoPay SDK is `9.0` and swift version `4.1` and WibmoPay SDK version is `0.1.10`.
+Add this to your project **podfile** `pod WibmoPaySDK`.Minimum deployment target version for WibmoPaySDK is `9.0` and swift version `4.1` and WibmoPaySDK version is `0.1.0`.
 ### Step 2. 
-Go to terminals and go to project path and type `pod install`,By doing so WibmoPay SDK code is download to your project and you can invoke SDK methods as follow.
+Go to terminals and go to project path and type `pod install`,By doing so WibmoPaySDK code is download to your project and you can invoke SDK methods as follow.
 ### Step 3.
-Added the `import WibmoPay`, Create a struct like below in your project controller(controller - where you would like to start calling SDK methods).
+Added the `import WibmoPaySDK`, Create a struct like below in your project controller(controller - where you would like to start calling SDK methods).
 create struct xxxx : MerchantTxnProtocol{} ,then you would be asked to add Protocol methods and adding so your struct would look like as below.
 ```java
 struct MerchantDetails: MerchantTxnProtocol {
