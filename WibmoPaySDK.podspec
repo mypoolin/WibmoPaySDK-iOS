@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WibmoPaySDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'WibmoPay iOS SDK is a very simple payment gateway for collecting money from customers.'
 
   s.description      = <<-DESC
@@ -18,8 +18,10 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hemavathi' => 'hemavathi.panjaksharam@wibmo.com' }
   s.source           = { :git => 'https://github.com/mypoolin/WibmoPaySDK-iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source_files = 'WibmoPaySDK/Classes/**/*'
+  s.resource_bundles = {
+      'WibmoPaySDK' => ['WibmoPaySDK/Assets/*.*','WibmoPaySDK/Assets/Images/*.*']
+  }
   s.ios.deployment_target = '9.0'
   s.swift_version    = '4.1'
   s.dependency 'CryptoSwift','~> 0.9.0'
