@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WibmoPaySDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'WibmoPay iOS SDK is a very simple payment gateway for collecting money from customers.'
 
   s.description      = <<-DESC
@@ -22,10 +22,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version    = '4.1'
-  s.source_files = 'WibmoPaySDK/Classes/**/*'
-  s.resource_bundles = {
-      'WibmoPaySDK' => ['WibmoPaySDK/Assets/*.*','WibmoPaySDK/Assets/Images/*.*']
-  }
   s.dependency 'CryptoSwift','~> 0.9.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
