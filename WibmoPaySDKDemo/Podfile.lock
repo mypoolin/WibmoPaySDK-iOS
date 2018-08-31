@@ -1,6 +1,6 @@
 PODS:
   - CryptoSwift (0.9.0)
-  - WibmoPaySDK (0.1.3):
+  - WibmoPaySDK (0.1.5):
     - CryptoSwift (~> 0.9.0)
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
-  WibmoPaySDK: 26f9e4876d2d4f7039d9cf983c940396269dc6b2
+  WibmoPaySDK: fc6f80c084c754af0fa3f8a3abcd68b64654e16f
 
 PODFILE CHECKSUM: 9dcb3faf8ece9609724d14f9a8f07ab3580fa2be
 
