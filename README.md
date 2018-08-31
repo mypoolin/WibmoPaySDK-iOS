@@ -12,7 +12,7 @@ This is the documentation for integrating WibmoPaySDK payment gateway on your iO
 # Integration
 ## **WibmoPay PG Integration Steps in Swift-Xcode**
 ### Step 1. 
-Add this to your project **podfile** `pod WibmoPaySDK`.Minimum deployment target version for WibmoPaySDK is `9.0` and swift version `4.1` and WibmoPaySDK version is `0.1.5`.
+Add this to your project **podfile** `pod WibmoPaySDK`.Minimum deployment target version for WibmoPaySDK is `9.0` and swift version `4.1` and WibmoPaySDK version is `0.1.6`.
 ### Step 2. 
 Go to terminals and go to project path and type `pod install`,By doing so WibmoPaySDK code is download to your project and you can invoke SDK methods as follow.
 ### Step 3.
