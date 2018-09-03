@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WibmoPaySDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'WibmoPay iOS SDK is a very simple payment gateway for collecting money from customers.'
 
   s.description      = <<-DESC
